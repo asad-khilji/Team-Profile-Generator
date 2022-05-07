@@ -1,0 +1,99 @@
+header {
+    background-color: red;
+    min-height: 100px;
+    padding: 10px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: auto; /* Should be removed. Only for demonstration */
+  }
+
+  .column img {
+    padding: 20px;
+  }
+
+  main {
+      max-width: 1025px;
+      margin: auto;
+      text-align: center;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: flex;
+    flex-wrap: wrap;
+    clear: both;
+  }
+
+  .column-2 {
+    float: left;
+    width: 50%;
+    height: auto; /* Should be removed. Only for demonstration */
+  }
+
+  .employee-card {
+    margin: 1em;
+    max-width: 280px;
+    width: 90%;
+    min-height: 5rem;
+    background-color: #007bff;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+    border: none;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f6f7f8;
+  }
+  
+  .list-group-item {
+    color: #000000;
+    text-decoration: none;
+  }
+
+  table, th, td {
+    border:1px solid black;
+    color: black;
+    padding: 10px;
+  }
+
+  @media only screen and (max-width: 768px) {
+   
+    .column {
+        width: 50%;
+    }
+
+    .column-2 {
+      width: 50%;
+  }
+
+  }
+
+  @media only screen and (max-width: 500px) {
+   
+    .column {
+        width: 100%;
+    }
+
+    .column-2 {
+      width: 100%;
+  }
+
+  }
