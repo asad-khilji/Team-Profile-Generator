@@ -16,10 +16,6 @@ h1 {
     height: auto; /* Should be removed. Only for demonstration */
   }
 
-  .column img {
-    padding: 20px;
-  }
-
   main {
       max-width: 1025px;
       margin: auto;
@@ -42,8 +38,8 @@ h1 {
 
   .employee-card {
     margin: 1em;
-    max-width: 280px;
-    width: 90%;
+    max-width: 250px;
+    width: 30%;
     min-height: 5rem;
     background-color: #007bff;
     color: white;

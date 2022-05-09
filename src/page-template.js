@@ -14,7 +14,7 @@ const generateTeam = (team) => {
               <td>ID: ${manager.getId()}</td>
           </tr>
           <tr>
-              <td>Email: ${manager.getEmail()}">${manager.getEmail()}</td>
+              <td>Email: ${manager.getEmail()}</td>
           </tr>
           <tr>
               <td>Office Number: ${manager.getOfficeNumber()}</td>
@@ -39,7 +39,7 @@ const generateTeam = (team) => {
           <td>ID: ${engineer.getId()}</td>
       </tr>
       <tr>
-          <td>Email: ${engineer.getEmail()}">${engineer.getEmail()}</td>
+          <td>Email: ${engineer.getEmail()}</td>
       </tr>
       <tr>
           <td>GitHub: ${engineer.getGithub()}</td>
@@ -64,7 +64,7 @@ const generateTeam = (team) => {
           <td>ID: ${intern.getId()}</td>
       </tr>
       <tr>
-          <td>Email: ${intern.getEmail()}">${intern.getEmail()}</td>
+          <td>Email: ${intern.getEmail()}</td>
       </tr>
       <tr>
           <td>GitHub: ${intern.getSchool()}</td>
@@ -117,9 +117,7 @@ const generateTeam = (team) => {
 
     <main>
 
-    <div class="row">
     ${generateTeam(team)}
-    </div>
 
 </main>
 
