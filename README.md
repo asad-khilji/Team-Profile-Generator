@@ -57,5 +57,5 @@
 ![Screenshot](https://github.com/asad-khilji/Team-Profile-Generator/blob/main/images/Screen%20Shot%202022-05-07%20at%202.59.33%20PM.png)
 
 ## Video Walkthrough
-* 
+* https://youtu.be/vbiiUoYrxow
     
